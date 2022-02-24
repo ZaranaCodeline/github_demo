@@ -192,14 +192,13 @@ class _LoginPageState extends State<LoginPage> {
                             Buttons.Facebook,
                             mini: true,
                             onPressed: () async {
-                              loginWithFacebook();
+                              signInWithFacebook();
                             },
                           ),
                           SignInButton(
                             Buttons.Apple,
                             mini: true,
                             onPressed: () async {
-                              loginWithFacebook();
                             },
                           ),
                         ],
